@@ -37,7 +37,7 @@
 
 <br clear="both">
 
-![Snake animation](https://raw.githubusercontent.com/rhawan81/rhawan81/output/github-snake.svg)
+![Snake animation](https://raw.githubusercontent.com/rhawan81/rhawan81/output/github-snake-dark.svg)
 
 ###
 
