@@ -11,14 +11,13 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
-
       - name: Generate GitHub Contributions Snake
         uses: Platane/snk@v3
         with:
           github_user_name: rhawan81
           outputs: dist/github-snake.svg
           # Adicione esta linha para definir a cor de fundo preta
-         dark_mode: true 
+          dark_mode: true 
 
       - name: Push to branch
         uses: crazy-max/ghaction-github-pages@v3
