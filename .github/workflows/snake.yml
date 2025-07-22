@@ -2,27 +2,29 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # Roda a cada 12 horas
-  workflow_dispatch: # Permite rodar manualmente
-
+    - cron: "0 */12 * * *" # Runs every 12 hours
+  workflow_dispatch: # Allows manual run
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
+
       - name: Generate GitHub Contributions Snake
         uses: Platane/snk@v3
         with:
           github_user_name: rhawan81
           outputs: dist/github-snake.svg
-          # Adicione esta linha para definir a cor de fundo preta
-          colors: 'github-dark' 
+          # Esta linha é crucial para o fundo escuro/preto.
+          # O 'dark_mode: true' faz com que a animação seja gerada
+          # com um tema escuro que inclui o fundo preto.
+          dark_mode: true 
 
       - name: Push to branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
-          target_branch: output # A branch onde o SVG será salvo
-          build_dir: dist # O diretório onde o SVG é gerado
+          target_branch: output # The branch where the SVG will be saved
+          build_dir: dist # The directory where the SVG is generated
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
