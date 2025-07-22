@@ -13,16 +13,35 @@
 
 ###
 
+---
+
+## Sobre Mim 🚀
+
+Sou Jose Rhawan Michel, um **entusiasta do desenvolvimento backend** em constante aprendizado e aprimoramento. Minha paixão é construir **sistemas robustos, eficientes e escaláveis**, e estou dedicando meus estudos e projetos a aprofundar conhecimentos em **Python com modelagem de banco de dados** . Sou proativo, curioso e focado em aplicar as melhores práticas à medida que evoluo na minha jornada como desenvolvedor.
+
+---
+
+## Habilidades Técnicas 💻
+
+Minhas habilidades e tecnologias que estou ativamente estudando:
+
+* **Linguagens de Programação:** **Python** ( conhecimento em lógica e sintaxe).
+* **Banco de Dados:** **SQL, MySQL** 
+* **Ferramentas & Outros:** **Git** (controle de versão).
+
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
-  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
   <img width="12" />
-</div>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo"  />
+  <img width="12" />
 
-###
+  </div>
+
+
+
+## Conecte-se Comigo 👋
+
+Estou sempre aberto a novas conexões e oportunidades para aprender e colaborar!
 
 <div align="left">
  <a href="mailto:rhawanjs@gmail.com">
@@ -33,11 +52,8 @@
 </a>
 </div>
 
-###
+---
 
 <br clear="both">
 
 ![Snake animation](https://raw.githubusercontent.com/rhawan81/rhawan81/output/github-snake.svg)
-
-###
-
