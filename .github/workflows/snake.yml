@@ -1,30 +1,69 @@
-name: Generate Snake
+ame: Generate Snake Game 🐍
+
+
 
 on:
-  schedule:
-    - cron: "0 */12 * * *" # Runs every 12 hours
-  workflow_dispatch: # Allows manual run
+
+  schedule: # Executa automaticamente todos os dias às 00:00 UTC
+
+    - cron: "0 0 * * *"
+
+  push:     # Executa sempre que houver push na branch main
+
+    branches:
+
+      - main
+
+  workflow_dispatch: # Permite executar manualmente pelo GitHub Actions
+
+
+
 jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
 
-      - name: Generate GitHub Contributions Snake
-        uses: Platane/snk@v3
-        with:
-          github_user_name: rhawan81
-          outputs: dist/github-snake.svg
-          # Esta linha é crucial para o fundo escuro/preto.
-          # O 'dark_mode: true' faz com que a animação seja gerada
-          # com um tema escuro que inclui o fundo preto.
-          dark_mode: true 
+  generate-snake:
 
-      - name: Push to branch
-        uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output # The branch where the SVG will be saved
-          build_dir: dist # The directory where the SVG is generated
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    runs-on: ubuntu-latest
+
+
+
+    steps:
+
+      - name: 📥 Checkout do repositório
+
+        uses: actions/checkout@v3
+
+
+
+      - name: 🐍 Gerar animação da cobra de contribuições
+
+        uses: Platane/snk@v3
+
+        with:
+
+          github_user_name: ${{ github.repository_owner }}
+
+          outputs: |
+
+            dist/github-snake.svg
+
+            dist/github-snake-dark.svg?palette=github-dark
+
+        env:
+
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+
+
+      - name: 🚀 Publicar no branch output
+
+        uses: peaceiris/actions-gh-pages@v3
+
+        with:
+
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+          publish_dir: ./dist
+
+          publish_branch: output
+
+          commit_message: "Atualizar animação da cobra [skip ci]"
