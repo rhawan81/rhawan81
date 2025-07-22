@@ -18,7 +18,7 @@ jobs:
           github_user_name: rhawan81
           outputs: dist/github-snake.svg
           # Adicione esta linha para definir a cor de fundo preta
-          background-color: '#000000' 
+         dark_mode: true 
 
       - name: Push to branch
         uses: crazy-max/ghaction-github-pages@v3
