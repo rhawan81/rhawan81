@@ -1,4 +1,5 @@
-<h2 align="left"> Olá 👋! Me chamo Jose Rhawan Michel , Sou um  Desenvolvedor Back-End 🚀 </h2>
+<h2 align="center"> Hello World <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo" align = 'center'  /> <br> My  name is  Jose Rhawan Michel <br> </h2>
+<h3 align="center" > Sou um  Desenvolvedor Back-End 🚀 </h3>
 
 ###
 
