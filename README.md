@@ -26,7 +26,7 @@ Sou Jose Rhawan Michel, um **entusiasta do desenvolvimento backend** em constant
 
 Minhas habilidades e tecnologias que estou ativamente estudando:
 
-* **Linguagens de Programação:** **Python , Javascript** ( conhecimento em lógica e sintaxe).
+* **Linguagens de Programação:** **Python ** ( conhecimento em lógica e sintaxe).
 * **Banco de Dados:** **MySQL** 
 * **Ferramentas & Outros:** **Git** (controle de versão).
 
