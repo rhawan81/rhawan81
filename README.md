@@ -39,7 +39,7 @@ Sou uma pessoa **proativa, curiosa e comprometida** com meu crescimento profissi
 ### 🚀 Linguagens & Tecnologias
 - **Python** — lógica de programação e sintaxe
 - **JavaScript** — fundamentos
-- **HTML5 & CSS3** — estrutura e estilização
+
 
 ### 🗄️ Banco de Dados
 - **MySQL**
