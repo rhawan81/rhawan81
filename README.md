@@ -1,8 +1,8 @@
 <h2 align="center">
-  Hello World 
+  Olá
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="Python logo" />
   <br>
-  My name is <strong>Jose Rhawan Michel</strong>
+  Meu nome é  <strong>Jose Rhawan Michel</strong>
 </h2>
 
 <h3 align="center">
