@@ -38,7 +38,6 @@ Sou uma pessoa **proativa, curiosa e comprometida** com meu crescimento profissi
 
 ### 🚀 Linguagens & Tecnologias
 - **Python** — lógica de programação e sintaxe
-- **JavaScript** — fundamentos
 - **Java** - Fundamentos e sintaxe
 
 
