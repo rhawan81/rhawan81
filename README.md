@@ -24,14 +24,16 @@
 Sou José Rhawan Michel, estudante de Ciência da Computação e entusiasta do desenvolvimento Back-End, atualmente focado no ecossistema Java.
 
 Tenho interesse em desenvolver sistemas robustos, eficientes e bem estruturados, aplicando conceitos sólidos de lógica de programação, Programação Orientada a Objetos e boas práticas de desenvolvimento.
+Busco evoluir constantemente através de projetos práticos, desafios de programação e estudo contínuo, compartilhando minha jornada de aprendizado na área de tecnologia.
 
 Atualmente estou focado em:
 
 ☕ Java e Programação Orientada a Objetos (POO)
+
 🗄️ Modelagem e integração com bancos de dados
+
 ⚙️ Boas práticas de desenvolvimento e organização de código
 
-Busco evoluir constantemente através de projetos práticos, desafios de programação e estudo contínuo, compartilhando minha jornada de aprendizado na área de tecnologia.
 ---
 
 ## 🛠️ Habilidades Técnicas
