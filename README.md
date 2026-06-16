@@ -1,7 +1,7 @@
 <h2 align="center">
  Olá Prazer ,
   <br>
-  Meu nome é  <strong>Jose  Rhawan Michel <br>
+  Meu nome é  <strong>Jose Rhawan Michel <br>
     Futuro Desenvolvedor Back-End Java
    </strong>
   
